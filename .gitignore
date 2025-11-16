@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+
+
+# FastAPI
+*.pid
+instance/
+.webassets-cache
+
+
+# Environments
+.env
+
+#IDE
+.vscode/
+.devcontainer/
