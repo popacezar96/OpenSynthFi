@@ -4,6 +4,7 @@ ENV PYTHONUNBUFFERED=1
 WORKDIR /code
 
 RUN apt-get update && apt-get install -y --no-install-recommends \
+    git \
     build-essential \
     && rm -rf /var/lib/apt/lists/*
 
